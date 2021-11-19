@@ -37,6 +37,13 @@ bottom: -3%;
 
 }
 
+.overlay {
+  background-color: #8BD2DC;
+  color: white;
+  padding: 1rem;
+  font-family: forma-djr-display, sans-serif;
+  font-weight: 500;
+}
 .userSelectedBackground,
 .userSelectedBackground:nth-of-type(even),
 .userSelectedBackground:nth-of-type(odd){
