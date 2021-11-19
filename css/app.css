@@ -1,0 +1,459 @@
+/* CODE FOR ACCESSIBLE SKIP LINK – DO NOT DELETE */
+body {
+  font-family: forma-djr-display, sans-serif;
+  font-weight: 500;
+  background-color: white;
+}
+
+.logo-head {
+  height: 5rem;
+  padding: 1rem;
+  position: relative;
+
+}
+
+.logo {
+  height: 5rem;
+  padding: 1rem;
+
+}
+
+header {
+  font-family: forma-djr-display, sans-serif;
+  font-weight: 500;
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 100%;
+  z-index: 2;
+
+}
+header h1 {
+font-size: 1.5rem;
+color: white;
+bottom: -3%;
+
+
+}
+
+.userSelectedBackground,
+.userSelectedBackground:nth-of-type(even),
+.userSelectedBackground:nth-of-type(odd){
+  background-color:red;
+  padding: 2rem;
+    background:#8BD2DC;
+    float:left;
+    outline: 2px solid #fff;
+    outline-offset: -10px;
+    height: 95%;
+
+}
+
+.userSelectedBackground1,
+.userSelectedBackground1:nth-of-type(even),
+.userSelectedBackground1:nth-of-type(odd){
+  background-color:red;
+  padding: 2rem;
+    background:#8BD2DC;
+    float:left;
+    outline: 2px solid #fff;
+    outline-offset: -10px;
+    height: 97%
+
+}
+
+.orbit-figure,
+.orbit-figure:nth-of-type(even),
+.orbit-figure:nth-of-type(odd){
+  padding: 2rem;
+    background:#8BD2DC;
+    float:left;
+    outline: 2px solid #fff;
+    outline-offset: -10px;
+    height: 25%;
+    width: 100%;
+
+}
+
+.orbit-image {
+
+  align-content: center;
+  /*padding: 1rem;*/
+
+}
+
+.orbit-container p{
+background-color: transparent;
+  font-size: 1.5rem;
+color: white;
+font-weight: 525;
+text-align: center;
+margin-bottom: 0;
+
+}
+.orbit-container h1{
+background-color: transparent;
+  font-size: 2rem;
+color: white;
+font-weight: 525;
+align-content: middle;
+text-align: center;
+}
+
+
+.hero {
+  position: relative;
+}
+
+
+.get-lost h1,
+.get-lost h1:nth-of-type(even),
+.get-lost h1:nth-of-type(odd) {
+    outline: 2px solid #fff;
+    outline-offset: 10px;
+    position: absolute;
+ bottom: 40%;
+  right: 20%;
+  font-size: 1.7rem;
+  color: white;
+  font-family: forma-djr-display, sans-serif;
+  font-weight: 550;
+}
+
+
+.hero h1 {
+font-size: 2rem;
+font-family: forma-djr-display, sans-serif;
+font-weight: 500;
+color: white;
+}
+
+.hero img {
+
+}
+
+.come,
+.come:nth-of-type(even),
+.come:nth-of-type(odd) {
+    outline: 2px solid #8BD2DC;
+  color: #8BD2DC;
+
+  font-weight: 550;
+  padding: 2rem;
+    background: white;
+    outline-offset: -10px;
+    width: 60%;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-top: -3rem;
+    position:  relative;
+    z-index: 1;
+
+}
+
+.come h1 {
+   text-align: center;
+  font-weight: 550;
+    font-family: forma-djr-display, sans-serif;
+}
+
+.features {
+background-color: white;
+padding-top: 8rem;
+}
+
+
+.features h2 {
+  font-size: 1.7rem;
+  background-color: white;
+  display: inline-block;
+  left: 50%;
+      transform: translateX(-50%);
+      position: relative;
+      margin-top: -50%;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      padding-right: 2rem;
+      padding-left: 2rem;
+    background:white;
+    padding: 1rem;
+    outline: 2px solid #8BD2DC;
+    outline-offset: -10px;
+
+
+}
+
+.slide1 .grid-x {
+  background-color: #a2dbe3;
+}
+
+.slide1 h1,
+.slide1 h1:nth-of-type(even),
+.slide1 h1:nth-of-type(odd) {
+    outline: 2px solid #8BD2DC;
+  font-size: 2em;
+  color: #8BD2DC;
+  font-family: forma-djr-display, sans-serif;
+  font-weight: 550;
+    background: white;
+    outline-offset: -10px;
+
+    margin-left:  auto;
+    margin-right:  auto;
+    text-align: center;
+  padding: 1rem;
+
+}
+
+.slide2 h1,
+.slide2 h1:nth-of-type(even),
+.slide2 h1:nth-of-type(odd) {
+    outline: 2px solid #8BD2DC;
+  font-size: 2em;
+  color: #8BD2DC;
+  font-family: forma-djr-display, sans-serif;
+  font-weight: 550;
+    background: white;
+    outline-offset: -10px;
+    margin-left:  auto;
+    margin-right:  auto;
+    text-align: center;
+  padding: 1rem;
+
+}
+
+.slide2 .grid-x {
+  background-color: #aee0e7;
+}
+
+.slide1 .slidebg {
+  padding: 3rem;
+}
+
+.slide2 .slidebg {
+  padding: 3rem;
+}
+
+.booking  {
+  padding-top: 0;
+    padding-bottom: 4rem;
+    background-color: #8BD2DC;
+}
+
+
+.booking i {
+  color: white;
+ 
+}
+
+.booking thead {
+  color: white;
+  font-size: 1.2rem;
+ 
+}
+.booking thead {
+  background-color: #8BD2DC;
+  border: 0;
+}
+
+.booking thead th {
+  padding: 1.3rem;
+}
+
+.booking thead th .far {
+  margin-right: .5rem;
+}
+
+.booking thead th .submit {
+  background-color: blue;
+  margin-bottom: 0;
+}
+
+.booking thead th .submit {
+  color: #8BD2DC; 
+  font-weight: 800;
+  background-color: white;
+  font-size: 1.2rem;
+}
+
+.booking thead th input[type="text"] {
+  display: inline;
+  width: 100%;
+  border: 1px solid white;
+  background-color: white;
+  margin-bottom: 0;
+}
+
+.features {
+  margin-top: 8rem;
+
+}
+
+.features p {
+font-size: 1.2rem;
+color: white;
+font-weight: 525;
+}
+
+.features h1,
+.features h1:nth-of-type(even),
+.features h1:nth-of-type(odd) {
+    outline: 2px solid #8BD2DC;
+  font-size: 3rem;
+  color: #8BD2DC;
+  font-family: forma-djr-display, sans-serif;
+  font-weight: 550;
+    background: white;
+    outline-offset: 10px;
+    width:60%;
+    margin-left:  auto;
+    margin-right:  auto;
+    margin-top: -10rem;
+    text-align: center;
+  
+
+
+}
+
+.rooms h1,
+.rooms h1:nth-of-type(even),
+.rooms h1:nth-of-type(odd) {
+    outline: 2px solid #8BD2DC;
+  font-size: 3rem;
+  color: #8BD2DC;
+  font-family: forma-djr-display, sans-serif;
+  font-weight: 550;
+    background: white;
+    outline-offset: 10px;
+    width:50%;
+    margin-left:  auto;
+    margin-right:  auto;
+    text-align: center;
+    margin-top: 2rem;
+    margin-bottom: 5rem;
+}
+
+.seperate img{
+  padding-top: 6rem;
+  padding-bottom: 6rem;
+}
+
+
+.amenities {
+}
+
+
+}
+
+.rooms {
+background-color: white;
+padding-top: 4rem;
+
+}
+
+
+.rooms h1{
+  font-size: 2.5rem;
+text-align: center;
+color: #8BD2DC;
+padding-bottom: 1rem;
+
+}
+
+.rooms h2{
+  font-size: 1.7rem;
+  background-color: white;
+  display: inline-block;
+  left: 50%;
+      transform: translateX(-50%);
+      position: relative;
+      margin-top: -50%;
+      padding-top: .5rem;
+      padding-bottom: .5rem;
+      padding-right: 2rem;
+      padding-left: 2rem;
+    background:white;
+    
+    outline: 2px solid #8BD2DC;
+    outline-offset: -10px;
+  
+
+}
+
+.rooms p{
+  font-size: 1.2rem;
+  font-size: 1.2rem;
+color: white;
+font-weight: 525;
+  
+}
+
+.slide2 {
+  padding-bottom: 4rem;
+
+}
+
+footer {
+  background-color: #8BD2DC;
+  padding-top: 1rem;
+}
+
+footer a {
+font-size: 1rem;
+color: white;
+font-family: forma-djr-display, sans-serif;
+  font-weight: 600;
+
+}
+
+i {
+  padding: .3rem;
+  align-content: middle;
+}
+
+.color-change{
+
+color: white;
+}
+.skip-link {
+  position: absolute;
+  padding: .5rem 1rem;
+  color: #fff;
+  background-color: #212121;
+  text-decoration: none;
+  z-index: 10;
+  transform: translateY(-100%);
+  transition: transform .3s ease-out;
+}
+
+.skip-link:focus {
+  transform: translateY(0);
+  outline: #fff solid .125rem;
+}
+
+@media print {
+  .skip-link {
+    display: none;
+  }
+}
+
+@media screen and (max-device-width: 768px) {
+ 
+
+.slide h1 {
+  font-size: 1.7rem ;
+}
+
+
+.orbit-container p {
+  font-size: 1.3rem;
+}
+.orbit-container h1{
+  font-size: 2rem;
+}
+.get-lost h1{
+  font-size: 1rem;
+}
+
+}

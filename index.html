@@ -1,0 +1,322 @@
+<!doctype html>
+
+<html class="no-js" lang="en" dir="ltr">
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GDES1060 Project 2</title>
+    <link rel="stylesheet" href="css/foundation.css">
+    <link rel="stylesheet" href="css/foundation-datepicker.min.css">
+    <link rel="stylesheet" href="css/app.css">
+     <script src="https://kit.fontawesome.com/941a7b16e7.js" crossorigin="anonymous"></script>
+     <link rel="stylesheet" href="https://use.typekit.net/pvr3jaj.css">
+
+
+  </head>
+
+  <body>
+
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header>
+  <div class="grid-container">
+    <div class="grid-x align-middle">
+      <div class="cell medium-6">
+         <img class="logo-head" src='img/whitelinked.svg'>
+      </div>
+      <div class="cell medium-6" id="text">
+        <ul class="menu align-right align-bottom show-for-medium">
+          <li><a href="#reservations"><h1>Reservations</h1></a></li>
+          <li><a href="#amenities"><h1>Amenities</h1></a></li>
+          <li><a href="#locations"><h1>Locations</h1></a></li>
+        </ul>
+    </div>
+  </div>
+
+</header>
+
+<section class="hero">
+ <div>
+        <img  src='img/hero-w.png'/>
+      </div>
+        <div class="get-lost">
+        <h1> Lets get lost together</h1>
+      </div>
+    </section>
+      
+          <section class="booking" id="reservations">
+
+    <div class="grid-x align-middle" id="reservations">
+       <div class="cell come align-middle"> 
+            <h1>Come Stay With Us</h1>
+            </div>
+      <div class="cell">
+        <table class="table" id="reservations">
+            <thead>
+              <tr class="grid-x align-middle" id="reservations">
+                <th class="cell medium-5"  id="reservations">
+                  <i class="far fa-calendar"  id="reservations"></i>Check in
+                  <input type="text" class="span2" value="" id="dpd1">
+                </th>
+                <th class="cell medium-5">
+                  <i class="far fa-calendar"></i>Check out
+                  <input type="text" class="span2" value="" id="dpd2">
+                </th>
+                <th class="cell medium-2 text-center">
+                  <input type="submit" class="submit button radius medium" value="Check" data-open="confirmation-overlay">
+                  <div id="confirmation-overlay" class="reveal" data-reveal>
+      <div class="grid-x">
+        <div class="cell large-7">
+          <div class="overlay">
+            <h1>Success</h1>
+            <h2>You've booked a room from <span class="dpd1"></span> to <span class="dpd2"></span>.</h2>
+          </div>
+        </div>
+      </div>
+      <button class="close-button" data-close aria-label="Close modal" type="button"><span aria-hidden="true">&times;</span></button>
+    </div>
+                </th>
+              </tr>        
+            </thead>
+          </table>
+      </div>
+    </div>
+  </div>
+</section>
+
+    <section class="features" id="amenities">
+      <div class="f1">
+        <div class="grid-container align-middle">
+
+        <div class="grid-x grid-margin-x align-middle">
+          <div class="cell align-middle">
+            <h1> Amenities</h1>
+          </div>
+          </div>
+      </div>
+    </div>
+  </div>
+      <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+         <div class="cell medium-4">
+          <div class="userSelectedBackground">
+           <img src='img/bar.png'/>
+           <h2>Bars</h2>
+           <p>27 bar across each location. They vary between casual, sports bars 
+and clubs.</p>
+         </div>
+       </div>
+    <div class="cell medium-4">
+       <div class="userSelectedBackground">
+           <img src='img/spa.png'/>
+           <h2>Spas</h2>
+           <p>Enjoy full relaxing during your vacation. Various spa across the resort, offering hot stone, hot oil, deep tissue, an even couple massages.</p>
+         </div>
+       </div>
+         <div class="cell medium-4">
+           <div class="userSelectedBackground" id="amenities">
+           <img src='img/walking.png'/>
+           <h2>Miles of Beaches</h2>
+           <p>Relax on our beaches. Enjoy miles and miles of beach to relax, walk and swim. </p>
+         </div>
+       </div>
+    </div>
+  </div>
+</section>
+<section class="seperate">
+      <div class="grid-x">
+        <div class="cell">
+        <img src='img/section1-w.png'>
+      </div>
+      </div>
+
+     </section>
+
+     <section class="slide1">
+
+      <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+
+    <ul class="orbit-container">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <div class="grid-container ">
+          <div class="grid-x align-middle">
+            <div class="cell medium-6 align-middle">
+
+          <img class="orbit-image" src="img/breakfast.png" alt="breakfast-in-bed">
+        </div>
+            <div class="cell medium-6 slidebg">
+              <h1> Breakfast in Bed</h1>
+          <p>Complimentary Breakfast in bed just a call away. Available 24/7.</p>
+        </div>
+      </div>
+    </div>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+         <figure class="orbit-figure">
+          <div class="grid-container">
+          <div class="grid-x align-middle">
+            <div class="cell medium-6 align-middle">
+          <img class="orbit-image" src="img/cafe.png" alt="cafe">
+        </div>
+            <div class="cell medium-6 slidebg">
+             <h1>Cafe</h1>
+          <p>Enjoy breakfast out at Marigolds. We a various selection of of breakfast including eggs, omlets, specialty breakfasts, and a bakery selection. </p>
+        </div>
+      </div>
+    </div>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+         <figure class="orbit-figure">
+          <div class="grid-container">
+          <div class="grid-x align-middle">
+            <div class="cell medium-6 align-middle">
+          <img class="orbit-image" src="img/romance.png" alt="rosepetal-bed">
+        </div>
+            <div class="cell medium-6 slidebg">
+              <h1> Honeymoon Suite</h1>
+          <p>Enjoy our honeymoon sweet wheather you recently married or look to relive your honeymoon night.</p>
+        </div>
+      </div>
+    </div>
+        </figure>
+      </li>
+</div>
+</section>
+
+      <section class="rooms">
+        <h1> Rooms</h1> 
+        <div class="grid-container">
+        <div class="grid-x grid-margin-x">
+         <div class="cell medium-4">
+          <div class="userSelectedBackground1">
+           <img src='img/bed-3.png' alt="bed">
+           <h2>Comfort</h2>
+           <p>A private room for you and your love one, focusing on your comfort. A beatiful view from right outside your bed room. </p>
+         </div>
+       </div>
+    <div class="cell medium-4">
+       <div class="userSelectedBackground1">
+           <img src="img/bed1.png" alt="bed">
+           <h2>Beach front</h2>
+           <p>Beautiful beach front room. Only steps away from the beach.</p>
+         </div>
+       </div>
+         <div class="cell medium-4">
+           <div class="userSelectedBackground1">
+           <img src='img/bed-2.png' alt="bed">
+           <h2>Cozy</h2>
+           <p>A nice quiet room for you and your love.  Get cozy together on our soft plush bed. </p>
+         </div>
+       </div>
+    </div>
+  </div>
+     <div>
+     </div>
+   </section>
+   <section class="seperate">
+     <div class="grid-x">
+      <div class="cell">
+        <img class="seperate" src='img/section2-w.png'>
+      </div>
+    </div>
+     </section>
+
+<section class="slide2">
+       <div class="orbit" role="region" aria-label="Favorite Space Pictures" data-orbit>
+  <div class="orbit-wrapper">
+    <div class="orbit-controls">
+      <button class="orbit-previous"><span class="show-for-sr">Previous Slide</span>&#9664;&#xFE0E;</button>
+      <button class="orbit-next"><span class="show-for-sr">Next Slide</span>&#9654;&#xFE0E;</button>
+    </div>
+
+    <ul class="orbit-container">
+      <li class="is-active orbit-slide">
+        <figure class="orbit-figure">
+          <div class="grid-container">
+          <div class="grid-x align-middle">
+            <div class="cell medium-6 align-middle">
+          <img class="orbit-image" src="img/bahamas.png" alt="bahamas">
+        </div>
+            <div class="cell medium-6 slidebg">
+              <h1>Bahamas</h1>
+          <p>Fall in love again at the beautiful islands of  Bahamas.</p>
+        </div>
+      </div>
+    </div>
+        </figure>
+      </li>
+      <li class="orbit-slide" id="locations">
+         <figure class="orbit-figure">
+          <div class="grid-container">
+          <div class="grid-x align-middle">
+            <div class="cell medium-6 align-middle">
+          <img class="orbit-image" src="img/dominican.png" alt="dominican">
+        </div>
+            <div class="cell medium-6 slidebg">
+              <h1>Dominican</h1>
+          <p>Enjoy your stay at beatiful island in the Dominican.</p>
+        </div>
+      </div>
+    </div>
+        </figure>
+      </li>
+      <li class="orbit-slide">
+         <figure class="orbit-figure">
+          <div class="grid-container">
+          <div class="grid-x align-middle">
+            <div class="cell medium-6 align-middle">
+          <img class="orbit-image" src="img/jamaica.png" alt="jamaica">
+        </div>
+            <div class="cell medium-6 slidebg">
+              <h1>Jamaica</h1>
+          <p>Relax on the amzing islands of Jamaica.</p>
+        </div>
+      </div>
+    </div>
+        </figure>
+      </li>
+</section>
+
+<footer> 
+  <div class="grid-container">
+   <div class="grid-x grid-margin-x align-left">
+         <div class="cell medium-7">
+  <img class="logo" src='img/whitelinked.svg'>
+ </div>
+ <div class="cell align-middle medium-3">
+        <ul style="list-style: none;">
+       <li> <a href="#">About Us</a></li>
+       <li></li><a href="#">Contact Us</a></li>
+        <li></li><a href="#">Book</a></li>
+        <li></li><a href="#">Locations</a></li>
+      </ul>
+</div>
+<div class="cell align-middle medium-2">
+  <a href="#"><i class="fab fa-twitter fa-2x color-change"></i></a>
+  <a href="#"><i class="fab fa-facebook-f fa-2x color-change"></i></a>
+  <a href="#"><i class="fab fa-instagram fa-2x color-change"></i></a>
+</div>
+</div>
+</div>
+</footer>
+
+   
+    <script src="js/vendor/jquery.js"></script>
+    <script src="js/vendor/what-input.js"></script>
+    <script src="js/vendor/foundation.js"></script>
+    <script src="js/vendor/foundation-datepicker.min.js"></script>
+    <script src="js/app.js"></script>
+
+  </body>
+
+</html>
